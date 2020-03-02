@@ -1,0 +1,158 @@
+<!--<h1>Hello, world!</h1>
+<p>Welcome to your new single-page application, built with:</p>
+<ul>
+  <li><a href='https://get.asp.net/'>ASP.NET Core</a> and <a href='https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx'>C#</a> for cross-platform server-side code</li>
+  <li><a href='https://angular.io/'>Angular</a> and <a href='http://www.typescriptlang.org/'>TypeScript</a> for client-side code</li>
+  <li><a href='http://getbootstrap.com/'>Bootstrap</a> for layout and styling</li>
+</ul>
+<p>To help you get started, we've also set up:</p>
+<ul>
+  <li><strong>Client-side navigation</strong>. For example, click <em>Counter</em> then <em>Back</em> to return here.</li>
+  <li><strong>Angular CLI integration</strong>. In development mode, there's no need to run <code>ng serve</code>. It runs in the background automatically, so your client-side resources are dynamically built on demand and the page refreshes when you modify any file.</li>
+  <li><strong>Efficient production builds</strong>. In production mode, development-time features are disabled, and your <code>dotnet publish</code> configuration automatically invokes <code>ng build</code> to produce minified, ahead-of-time compiled JavaScript files.</li>
+</ul>
+<p>The <code>ClientApp</code> subdirectory is a standard Angular CLI application. If you open a command prompt in that directory, you can run any <code>ng</code> command (e.g., <code>ng test</code>), or use <code>npm</code> to install extra packages into it.</p>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Sarabun' rel='stylesheet'>
+
+  <style>
+    .fakeimg {
+      height: 200px;
+      background: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="jumbotron text-center" style="margin-bottom:0; font-family : 'TH Sarabun New'">
+    <img src="assets/VP.png">
+    <h1>สำนักงานคณะกรรมการอาหารและยา</h1>
+    <p style="font-family : Sarabun ">Food and Drug Administration</p>
+    <p style="font-family : Sarabun ">กำหนดสิทธิ์เข้าใช้ระบบ</p>
+  </div>
+
+  <nav style="font-family : Sarabun; width:100%" class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <a class="navbar-brand" href="#">หน้าหลัก</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul class="navbar-nav" style="width:100%">
+        <li class="nav-item">
+          <a class="nav-link" href="#">ดูข้อมูล</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">จัดการสิทธิ์ผู้ประกอบการ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">จัดการสิทธิ์เจ้าหน้าที่</a>
+        </li>
+        <li class="nav-item" style="width:60%  ; padding-right:1% ; text-align:right ">
+          <a class="nav-link" href="#">Log out</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container" style="margin-top:30px">
+    <div class="row">
+      <div class="col-sm-4">
+        <h2 style="font-family : Sarabun ">ข้อมูลผู้ขอเปิดสิทธิ์เข้าใช้ระบบ E-submission</h2>
+        <div class="fakeimg"></div>
+        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+        <h3>Some Links</h3>
+        <p>Lorem ipsum dolor sit ame.</p>
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <hr class="d-sm-none">
+      </div>
+
+
+      <div class="col-sm-8">
+        <br>
+        <br>
+        <h2 style="font-family : Sarabun ">รายชื่อระบบ</h2>
+        <div class="container">
+          <div>
+            <select type="button" class="button-bear-dropdown dropdown-toggle" data-toggle="dropdown" style="font-family : Sarabun; text-align:center">
+              <option value="" disabled="disabled">--------------------รายชื่อระบบ--------------------</option>
+              <option value="Option A">Option A</option>
+              <option value="Option B">Option B</option>
+              <option value="Option C">Option C</option>
+            </select>
+          </div>
+        </div>
+        <br />
+
+        <table>
+          <tr>
+            <td>
+              <h5 style="font-family : Sarabun">ระบบย่อย</h5>
+              <label class="container2">
+                One
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container2">
+                Two
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container2">
+                Three
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container2">
+                Four
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+            </td>
+
+            <td style="width:5%  ; padding-right:2% ; text-align:right ">
+              <h5 style="font-family : Sarabun ">กรุณาเลือกวันหมดอายุ</h5>
+              <input type="date" class="button-bear" style="font-family : Sarabun " />
+            </td>
+          </tr>
+        </table>
+
+        <div class="text-center" style="margin-bottom:0">
+          <button type="button" class="button-bear">ยืนยัน</button>
+        </div>
+
+        <p>--------------------------------------------------------------------------------------------------------------</p>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div class="jumbotron text-center" style="margin-bottom:0">
+      <p style="font-family : Sarabun ">สำนักงานคณะกรรมการอาหารและยา 88/24 ถนนติวานนท์ อำเภอเมือง จังหวัดนนทบุรี 11000 โทรศัพท์ 0-2590-7000 </p>
+    </div>
+
+</body>
+</html>
