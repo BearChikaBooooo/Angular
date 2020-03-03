@@ -1,4 +1,4 @@
-<h1 id="tableLabel">Weather forecast</h1>
+﻿<!--<h1 id="tableLabel">Weather forecast</h1>
 
 <p>This component demonstrates fetching data from the server.</p>
 
@@ -21,7 +21,73 @@
       <td>{{ forecast.summary }}</td>
     </tr>
   </tbody>
-</table>
+</table>-->
+<head>
+    <title>Bootstrap 4 Website Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Sarabun' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="jumbotron text-center" style="margin-bottom:0; font-family : 'TH Sarabun New'">
+    <img src="assets/VP.png">
+    <h1>สำนักงานคณะกรรมการอาหารและยา</h1>
+    <p style="font-family : Sarabun ">Food and Drug Administration</p>
+    <p style="font-family : Sarabun ">กำหนดสิทธิ์เข้าใช้ระบบ</p>
+  </div>
+  <nav style="font-family : Sarabun; width:100%" class="navbar navbar-expand-sm bg-green navbar-dark">
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <!--<a class="navbar-brand" href="#">หน้าหลัก</a>-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul class="navbar-nav" style="width:100%">
+        <!--<li class="nav-item">
+          <a class="nav-link" href="#">ดูข้อมูล</a>
+        </li>-->
+        <!--<li class="nav-item">
+          <a class="nav-link" href="#">จัดการสิทธิ์ผู้ประกอบการ</a>
+        </li>-->
+        <!--<li class="nav-item">
+          <a class="nav-link" href="#">จัดการสิทธิ์เจ้าหน้าที่</a>
+        </li>-->
+        <li class="nav-item" style="width:100%  ; padding-right:1% ; text-align:right ">
+          <a class="nav-linknew" href="#">ออกจากระบบ</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <br />
+  <div class="card">
+    <div class="card-header" style="background-color:#33CC99;">
+      <h2 style="text-align:center">ระบบกำหนดสิทธิ์</h2>
+    </div>
+    <div class="card-body" style="background-color:#F8F8FF;">
+      <h5 class="card-title" style="text-align:center">เลขบัตรประจำตัวประชาชนผู้ขอใช้ระบบเปิดสิทธิ์ E-submission</h5>
+      <div class="card-text">
+        <input type="checkbox" name="active">
+        <label>ชาวไทย</label>
+        <input type="checkbox" name="active">
+        <label>ชาวต่างชาติ</label>
+        <br />
+        
+        <label>เลขบัตรประจำตัวประชาชน:</label>
+        <input type="text" style="border-radius: 25px;" size="45" placeholder="เลขบัตรประชาชน" />
+        <a href="#" class="btn btn-primary" style="padding:1%;">ค้นหา</a>
+      </div>
+      </div>
+    <div class="card-footer"  style="background-color:#33CC99">
+      <label>สำนักคณะกรรมการอาหารและยา 88/22 ถนนติวานนท์ อำเภอเมืองจังหวัดนนทบุรี 110000 โทรศัพท์ 02-2950-7000</label>
+    </div>
+  </div>
+</body>    
 
 
 
