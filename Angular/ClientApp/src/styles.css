@@ -128,5 +128,18 @@ code {
   overflow: auto; */
 }
 /*----------------------------End Home-----------------------------*/
+.card-text{
+    text-align:center;
+}
 
+.card-footer {
+    text-align:center;
+}
 
+.bg-green {
+  background-color: #33CC99
+}
+
+.nav-linknew {
+  color: black
+}
